@@ -9,6 +9,7 @@ public class Atlantico {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date fecha = new Date();
         System.out.println(dateFormat.format(fecha));
-        System.out.println(this.getClass().getSimpleName());        
+        System.out.println(this.getClass().getSimpleName());     
+        System.out.println("FIN");
     }
 }
