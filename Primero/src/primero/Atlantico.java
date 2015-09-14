@@ -10,6 +10,6 @@ public class Atlantico {
         Date fecha = new Date();
         System.out.println(dateFormat.format(fecha));
         System.out.println(this.getClass().getSimpleName());     
-        System.out.println("FIN");
+        System.out.println("AB dice FIN");
     }
 }
