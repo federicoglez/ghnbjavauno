@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>A modo de propuestas para este primer tinglado en Java</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="propuestas.css" />
+    </head>
+    <body>
+        <h1>A modo de propuestas para este primer tinglado en Java</h1>
+        <div>Partiendo de que el objetivo es refrescar los conocimientos de Java, o incluso 
+            avanzar hacia técnicas o trucos nuevos este puede ser un buen punto en el
+            que enumerar propuestas de programación.
+        </div>
+        <div>Otras sugerencias y formatos podemos adoptarlos en cualquier momento si hay
+            consenso, pero por ahora, y a falta de una idea mejor, se me ha ocurrido que
+            para que nos familiaricemos con GitHub y su modelo de programación concurrente
+            u orientado a equipos, empecemos cada cual aportando una clase .java que no
+            dependa de otras clases o funciones de este mismo proyecto (a ser posible
+            en este primer intento que sólo dependa de la bilbioteca estándar del JDK 1.8) y
+            cuya entrada/salida se haga sólo a través de System.
+        </div>
+        <div>La función main() de la clase principal, en este caso Primero.java, debería limitarse
+            a instanciar cada clase de este modo:
+            <pre>NombreDeLaClase variable=new NombreDeLaClase();</pre>
+            Sin argumentos ni referencias a objetos o variables externas a la clase.
+        </div>
+        <div>
+            La idea es escribir cada cual su propia clase, probarla, "pullearla" cada 
+            cual hacia la rama secundaria (pública) de su propio fork y notificarme la intención de añadirla
+            al proyecto principal. Yo me limitaré a modificar la función main() y a incorporar
+            la nueva clase (o grupo de ficheros) y a notificar al grupo los cambios para
+            que cada cual pueda sincronizar su rama master.
+        </div>
+        <div>
+            Si con el tiempo vemos que no tenemos problemas con el proceso GitHub podemos automatizar
+            aún más las cosas con el objetivo de hacer mi papel menos relevante o necesario.
+        </div>
+        <div><h2>Lo propiamente Java</h2>
+            Deberíamos poder poner aquí las propuestas de código que cada cual va escribir<br />
+            El sentido de cada clase debería ser más didáctico que motivado por las ganas de impresionar
+            a los colegas. Para éso si hay tiempo y ganas, crearemos otro proyecto más adelante.<br />
+            En este primer ejercicio intentemos reducir la entrada/salida todo lo posible. Lo interesante 
+            es poder ver el códgo. Quien quiera probar lo que encuentre en cada fichero, que lo copie
+            a proyecto personal aparte y lo pruebe ahí. Este proyecto se llama Primero. En el que 
+            llamemos Segundo podríamos proponer algún tipo de interactividad básica común (un menú y que luego
+            cada clase se ocupe de volver a él, o algo similar)<br />
+            Dando por supuesto que al menos se entiende el modo en que estamos usando main(), seguimos 
+            uno de tantos esquemas clásicos de introducción a un lenguaje.
+            <ul>
+                <li>Sintaxis básicas y estructuras de control</li>
+                <li>Clases, objetos, this, constructor, tipos enumerados, etc.</li>
+                <li>OOP un poco más avanzada: clases anidadas, ámbitos (scope) y control de accesso,  etc.</li>
+                <li>OOP más avanzada: herencia, interfaces, anotaciones, generics, etc.</li>
+                <li>Haciendo cosas con números, cadenas, fechas y otros tipos</li>
+                <li>Acceso a disco: información sobre ficheros, directorios</li>
+                <li>Operaciones sobre ficheros de texto y binarios</li>
+                <li>Expresiones regulares</li>
+                <li>XML</li>
+                <li>Acceso a datos remotos</li>
+            </ul>
+        </div>
+    </body>
+</html>
