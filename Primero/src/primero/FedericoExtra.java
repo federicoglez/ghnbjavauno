@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package primero;
 
-/**
- *
- * @author federico
- */
-public class FedericoExtra extends Planeta {
+class FedericoExtra extends Planeta {
     public FedericoExtra(int radio,long masa){
         this.radio=radio;
         this.masa=masa;
+        
     }
-    void Info(){
+    public void Info(){
         String s;
-        s="Planeta: " + this.n + "\n"; //Si se va a ejecutar en windows, \r\n
+        s="Planeta: " + this.nombre_del_planeta + "\n"; //Si se va a ejecutar en windows, \r\n
         s+="Masa: "+this.masa + "\n";
         s+="Radio: "+this.radio + "\n";
         s+="Volumen: "+this.volumen() + "\n";
@@ -28,12 +20,12 @@ public class FedericoExtra extends Planeta {
 
 class Planeta extends ObjetoSolar{
     long distancia_media_al_sol;
-    String n;
+    String nombre_del_planeta;
     void distanciaMediaAlSol(long d){
         this.distancia_media_al_sol=d;
     }
-    void nombre(String s){
-        this.n=s;
+    void nombreDelPlaneta(String s){
+        this.nombre_del_planeta=s;
     }    
     
 }
@@ -56,3 +48,4 @@ class ObjetoSolar{
         return r;
     }
 }
+
