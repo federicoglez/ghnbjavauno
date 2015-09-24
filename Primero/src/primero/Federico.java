@@ -3,6 +3,8 @@
  */
 package primero;
 
+
+
 /**
  *
  * @author federico
@@ -106,6 +108,8 @@ class ImpresoraLocal implements iImpresora{
  * 
  */
 public class Federico {
+    
+
     public Federico(){
         System.out.println(this.getClass().getSimpleName());
 //Probando interface,implements
@@ -142,11 +146,12 @@ public class Federico {
             default:
                 System.out.println("Impresora no definida");                               
         }
-    }
 //Probando herencia,extends
-    FedericoExtra fedex=new FedericoExtra(12,40);
-    
-    
-    
-    
+        FedericoExtra fedex=new FedericoExtra(12,40);
+        fedex.nombreDelPlaneta("Paco");
+        fedex.distanciaMediaAlSol(891004);
+        fedex.Info();        
+    }
 }
+
+
