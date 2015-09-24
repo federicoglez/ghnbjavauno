@@ -152,6 +152,7 @@ public class Federico {
         fedex.distanciaMediaAlSol(891004);
         fedex.Info();        
     }
+
 }
 
 
@@ -182,7 +183,6 @@ class Planeta extends ObjetoSolar{
     void nombreDelPlaneta(String s){
         this.nombre_del_planeta=s;
     }    
-    
 }
 
 class ObjetoSolar{
@@ -203,4 +203,3 @@ class ObjetoSolar{
         return r;
     }
 }
-
